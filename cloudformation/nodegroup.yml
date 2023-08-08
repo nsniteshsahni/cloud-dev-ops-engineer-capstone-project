@@ -1,5 +1,5 @@
 Description: >
-  Felix Lutze / Capstone Project
+  Nitesh Sahni / Capstone Project
   Creates the nodegroup for the Amazon EKS Cluster
 Parameters:
   EnvironmentName:

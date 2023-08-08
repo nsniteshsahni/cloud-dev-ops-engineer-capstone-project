@@ -1,5 +1,5 @@
 Description: >
-  Felix Lutze / Capstone Project
+  Nitesh Sahni/ Capstone Project
   Creates an Amazon EKS Cluster
 Parameters:
   EnvironmentName:
@@ -38,7 +38,7 @@ Resources:
   CapstoneProjectCluster:
     Type: AWS::EKS::Cluster
     Properties:
-      Version: "1.19"
+      Version: "1.27"
       Name: !Sub ${EnvironmentName}-cluster
       RoleArn: !GetAtt EKSClusterRole.Arn
       ResourcesVpcConfig:
