@@ -222,7 +222,7 @@ jobs:
             cat ~/inventory.txt
             cd ansible
             ansible-playbook -i ~/inventory.txt deploy-app.yml
-          no_output_timeout: 2m
+          no_output_timeout: 5m
 
 workflows:
   default:
