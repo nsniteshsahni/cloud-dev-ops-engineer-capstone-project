@@ -1,5 +1,5 @@
 [
   "EnvironmentName=capstone-project",
-  "SSHKeyName=udacity",
-  "amiImageId=ami-0767046d1677be5a0"
+  "SSHKeyName=udacity-capstone",
+  "amiImageId=ami-0a0c8eebcdd6dcbd0"
 ]
