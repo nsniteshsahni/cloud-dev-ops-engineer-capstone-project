@@ -9,7 +9,7 @@ Parameters:
     Type: String
   SSHKeyName:
     Description: SSH key for management access
-    Default: udacity
+    Default: udacity-capstone
     Type: String
   amiImageId:
     Description: Defines the Image-ID of the OS to deploy
