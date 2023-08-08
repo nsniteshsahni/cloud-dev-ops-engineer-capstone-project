@@ -44,7 +44,7 @@ jobs:
       - checkout
 
       - setup_remote_docker:
-          version: 20.10.13
+          version: 19.03.13
 
       - run:
           name: Build docker container
